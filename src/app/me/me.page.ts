@@ -1,31 +1,16 @@
-import { Component, OnInit, AfterViewInit, OnDestroy } from '@angular/core';
-import { NavController } from '@ionic/angular';
-import { Route, Router } from '@angular/router';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-me',
   templateUrl: './me.page.html',
   styleUrls: ['./me.page.scss'],
 })
-export class MePage implements OnInit, AfterViewInit, OnDestroy {
+export class MePage implements OnInit {
 
   disabled = true;
-  constructor(private navCtrl: NavController, private router: Router) { }
+  constructor() { }
 
   ngOnInit() {
   }
 
-  ngAfterViewInit(): void {
-    this.disabled = false;
-  }
-
-  back() {
-    // this.navCtrl.goBack();
-    this.router.navigateByUrl('/home');
-  }
-
-  ngOnDestroy(): void {
-    console.error('OnDestroy');
-
-  }
 }
