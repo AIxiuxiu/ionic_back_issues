@@ -259,9 +259,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
-@ionic/angular
-MIT
-
 tslib
 Apache-2.0
 Apache License
@@ -324,6 +321,9 @@ END OF TERMS AND CONDITIONS
 @ionic-native/core
 MIT
 
+@ionic/angular
+MIT
+
 @angular/common
 MIT
 
@@ -333,15 +333,15 @@ MIT
 @angular/router
 MIT
 
-loader
-
-icon-loader
-
 @ionic-native/splash-screen
 MIT
 
 @ionic-native/status-bar
 MIT
+
+loader
+
+icon-loader
 
 @angular/core
 MIT
