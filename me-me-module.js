@@ -124,7 +124,7 @@ var MePage = /** @class */ (function () {
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'app-me',
             template: __webpack_require__(/*! ./me.page.html */ "./src/app/me/me.page.html"),
-            styles: [__webpack_require__(/*! ./me.page.scss */ "./src/app/me/me.page.scss")],
+            styles: [__webpack_require__(/*! ./me.page.scss */ "./src/app/me/me.page.scss")]
         }),
         __metadata("design:paramtypes", [_ionic_angular__WEBPACK_IMPORTED_MODULE_1__["NavController"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"]])
     ], MePage);

@@ -101,7 +101,7 @@ var HomePage = /** @class */ (function () {
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'app-home',
             template: __webpack_require__(/*! ./home.page.html */ "./src/app/home/home.page.html"),
-            styles: [__webpack_require__(/*! ./home.page.scss */ "./src/app/home/home.page.scss")],
+            styles: [__webpack_require__(/*! ./home.page.scss */ "./src/app/home/home.page.scss")]
         })
     ], HomePage);
     return HomePage;
